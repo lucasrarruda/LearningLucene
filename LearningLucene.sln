@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningLucene", "LearningLucene\LearningLucene.csproj", "{CBBF716A-B19B-404C-B6CA-EE258724A0D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningLucene.Repository", "LearningLucene.Repository\LearningLucene.Repository.csproj", "{6F12F6FF-44FD-45C3-9CF8-38B0C3173253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningLucene.Repository", "LearningLucene.Repository\LearningLucene.Repository.csproj", "{6F12F6FF-44FD-45C3-9CF8-38B0C3173253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningLucene.RepositoryTest", "LearningLucene.RepositoryTest\LearningLucene.RepositoryTest.csproj", "{A31EFB81-C150-4AF0-A598-EA07F0CA5EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6F12F6FF-44FD-45C3-9CF8-38B0C3173253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F12F6FF-44FD-45C3-9CF8-38B0C3173253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F12F6FF-44FD-45C3-9CF8-38B0C3173253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31EFB81-C150-4AF0-A598-EA07F0CA5EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31EFB81-C150-4AF0-A598-EA07F0CA5EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31EFB81-C150-4AF0-A598-EA07F0CA5EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31EFB81-C150-4AF0-A598-EA07F0CA5EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

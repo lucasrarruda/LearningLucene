@@ -15,7 +15,7 @@ using System.IO;
 
 namespace LearningLucene.Repository
 {
-    internal class LuceneRepository : IRepository<string>
+    public class LuceneRepository : IRepository<string>
     {
         private StandardAnalyzer? _analyzer;
         private readonly FSDirectory _directory;
